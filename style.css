@@ -1,81 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
-    font-family: "Geist", sans-serif;
-  font-optical-sizing:auto;
-  font-weight:<weight>;
-  font-style:normal;
-}
-
-*{
-    color: rgb(0, 119, 255);
-}
-p{
-    background-color: rgb(255, 255, 255);
-}
-p{
-    font-size: 32pt;
-}
-#name{ 
-  font-size: 28pt;
-  color: rgb(87, 21, 21);
- padding: 20px 20px 50px 100px;
- margin: 20px 100px 20px 100px;
-}
-.name{
-    font-size: 28;
-    color:rgb(255, 0, 0);
-}
-p.text{
-    font-size: 30pt;
-    color: aliceblue;
-}
-.btn{
-    background-color: rgb(0, 255, 255);
-    color: #000000;
-    font-size: 24px;
-    padding: 20px 20px 20px 20px ;
-    margin: 20px ;
-    border:rgb(255, 166, 0) solid 2px ;
-}
-.btn:hover{
-    background-color: rgb(55, 0, 255);
-    color: #0d09e4;
-    font-size: 24px;
-    padding: 20px 20px 20px 20px ;
-    margin: 20px ;
-    border:rgb(0, 255, 21) solid 2px ;
-}
-.btn:active{
-    background-color: rgb(174, 0, 255);
-    color: #0cc0a8;
-    font-size: 24px;
-    padding: 20px 20px 20px 20px ;
-    margin: 20px ;
-    border:rgb(255, 5, 122) solid 2px ;
-}
-.btn:active{
-}
-
-.lnline{
-    display: inline;
-    background-color: #000000;
-    padding: 20px;
-    margin-right: 5px;
-}
-.box{
-    background-color: #000000;
-    padding: 20px;
-    margin-right: 5px;
-}
-.flex-box{
-    display: flex;
-    justify-content: space-between;
-}
-.flex-box{
-
-}
-.grid-box{
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    row-gap: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body>{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+      *{
+            margin: 1000;
+            padding: 1000;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cotainar{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 100px;
+            border: 100px skyblue;
+            border-radius: 500px;
+        }
+        input{
+             margin: 5px 0px;
+             height: 35px;
+             padding: 10px;
+        }
+        button{
+            height: 50px;
+            margin: 5px 100px;
+            padding: 100;
+            background-color: skyblue;
+            border: 100px;
+            border-radius: 30px;
+            color: #333;
+        }
+        button:hover{
+            background-color: #333;
+            color: skyblue;
+        }
+        p{
+            background-color: rgb(150, 114, 114);
+        }
+        p{
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url(../rukia-kuchiki.imge.avif);
+        }
 }
